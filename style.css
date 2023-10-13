@@ -1,0 +1,198 @@
+body {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6ojmSdZGwkteTjQFqoaiPCh7MOrFi2Q7NV49RBS_DGA&s');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+<style>
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, fieldset, input, textarea, blockquote {
+  margin: 0; padding: 0; border: 0;
+}
+
+body {
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  font-family: Helvetica, sans-serif; font-size: 18px; line-height: 24px;
+}
+
+nav {
+  margin: 10px auto; 
+  text-align: center;
+}
+
+nav ul ul {
+  display: none;
+}
+
+  nav ul li:hover > ul {
+    display: block;
+  }
+
+
+nav ul {
+  background: #e6ccff; 
+  background: linear-gradient(top, #e6ccff 0%, #bbbbbb 100%);  
+  background: -moz-linear-gradient(top, #e6ccff 0%, #bbbbbb 100%); 
+  background: -webkit-linear-gradient(top, #e6ccff 0%,#bbbbbb 100%); 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 20px;
+  border-radius: 10px;  
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+  nav ul:after {
+    content: ""; clear: both; display: block;
+  }
+
+  nav ul li {
+    float: left;
+  }
+    nav ul li:hover {
+      background: #4b545f;
+      background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+      background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+      background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+    }
+      nav ul li:hover a {
+        color: #fff;
+      }
+    
+    nav ul li a {
+      display: block; padding: 25px 40px;
+      color: #757575; text-decoration: none;
+    }
+      
+    
+  nav ul ul {
+    background: #5f6975; border-radius: 0px; padding: 0;
+    position: absolute; top: 100%;
+  }
+    nav ul ul li {
+      float: none; 
+      border-top: 1px solid #6b727c;
+      border-bottom: 1px solid #575f6a; position: relative;
+    }
+      nav ul ul li a {
+        padding: 15px 40px;
+        color: #fff;
+      } 
+        nav ul ul li a:hover {
+          background: #4b545f;
+        }
+    
+  nav ul ul ul {
+    position: absolute; left: 100%; top:0;
+  }
+ 
