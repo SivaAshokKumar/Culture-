@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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">
+</head>
+<body>
+<title>Kapaleeswarar Temple, Chennai</title>
+</body>
+<body>
+<br></br>
+</body>
+<body>
+<nav>
+  <br></br><meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <body>
+  <font color="#884dff" > 
+<h1 style="font-family:Times new roman;font-size:90px;font-style:bold;">Kapaleeswarar Temple, Chennai</h1></font>
+ 
+  <br></br>
+   <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#"> North Tamilnadu</a>
+       <ul>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Kapaleeswarar%20Temple,%20Chennai.html">Kapaleeswarar Temple</a></li>
+          <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Kamatchi%20Amman%20Temple,%20Mangadu,%20Kanchipuram.html">Kamatchi Amman Temple</a></li>
+            <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Parthasarathi%20Swamy%20Temple,%20Tiruvallikeni,%20Chennai.html">Parthasarathi Swamy Temple</a></li>
+           
+          </li>
+       </ul>
+     </li>
+     <li><a href="#">South Tamilnadu</a>
+       <ul>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/MEENAKSHI%20AMMAN%20TEMPLE,MADURAI.html">Meenakshi Temple</a></li>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Ramanathaswamy%20Temple.html"> Ramanathaswamy Temple</a></li>
+     <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Aranganathaswamy%20Temple,%20Srirangam.html"> Aranganathaswamy Temple</a></li>
+       </ul>
+     </li>
+   <li><a href="#">East Tamilnadu</a>
+       <ul>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/BRIGHADESHWARA%20TEMPLE.html">BRIGHADESHWARA TEMPLE</a></li>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Meenakshi%20Chokanathar%20Swamy%20Temple,%20Mannargudi.html">Meenakshi Chokanathar Swamy Temple</a></li>
+       </ul>
+     </li>
+     <li><a href="#">West tamilnadu</a>
+   <ul><li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Arunachaleswarar%20Temple.html">Arunachaleswarar Temple</a></li>
+         <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Subramaniaswamy%20Temple.html"> Subramaniaswamy Temple</a></li>
+             <li><a href="file:///C:/Users/sedhu/OneDrive/Desktop/DP%20siva/Vinayagar%20Temple,%20Echanari.html"> Vinayagar Temple, Echanari</a></li></ul></li>
+    <li><a href="#">Contact</a></li>
+   </ul>
+ </nav>
+ 
+ </body>
+<body>
+<font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>Kapaleeswarar Temple, Chennai</h1></center>
+<font color=" 	#9970c2">  
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><p><h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">Kapaleeshwarar Temple is a Hindu temple dedicated to lord Shiva located in Mylapore,<br></br> Chennai in the Indian state of Tamil Nadu. The form of <br></br> Shiva's consort Parvati worshipped at this temple is called Karpagambal <br></br> is from Tamil ("Goddess of the Wish-Yielding Tree"). The temple <br></br>  was built around the 7th century CE and is an example of Dravidian architecture.</center></h2></p>
+ <br></br>
+ </body>
+ <body>
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040362/Kapaleeswarar%20Temple%2C%20Chennai/Entance_t3kwiw.jpg" style="width:90%">
+  <div class="text">ENTRANCE</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040365/Kapaleeswarar%20Temple%2C%20Chennai/KOODIMARAM_pzxnd3.jpg" style="width:90%">
+  <div class="text">KOODIMARAM</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040365/Kapaleeswarar%20Temple%2C%20Chennai/Path_1_h7cxug.jpg" style="width:90%">
+  <div class="text">PATH</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040365/Kapaleeswarar%20Temple%2C%20Chennai/Path_2_tlblyo.jpg" style="width:90%">
+  <div class="text">PATH</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040367/Kapaleeswarar%20Temple%2C%20Chennai/path3_txfilp.jpg" style="width:90%">
+  <div class="text">PATH</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040362/Kapaleeswarar%20Temple%2C%20Chennai/interior2_ywabbr.jpg" style="width:90%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">7 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040363/Kapaleeswarar%20Temple%2C%20Chennai/iterior_lcmkl0.jpg" style="width:90%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">8 / 15</div>
+  <div class="text">INTERIOR</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040365/Kapaleeswarar%20Temple%2C%20Chennai/mooalvur_xzmkod.jpg" style="width:90%">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">9 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040368/Kapaleeswarar%20Temple%2C%20Chennai/special_entrance_dmla1n.jpg" style="width:90%">
+  <div class="text">INTERIOR</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">10 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040365/Kapaleeswarar%20Temple%2C%20Chennai/lingothapavar_cyepcn.jpg" style="width:90%">
+  <div class="text">Lingothapavar</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">11 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040368/Kapaleeswarar%20Temple%2C%20Chennai/Scultures_qegwp3.jpg" style="width:90%">
+  <div class="text">SCULPTURES</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">12 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040359/Kapaleeswarar%20Temple%2C%20Chennai/back_way_wc6s6m.jpg" style="width:90%">
+  <div class="text">WAY</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">13 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040361/Kapaleeswarar%20Temple%2C%20Chennai/Gopuram_sculturres_mnccx3.jpg" style="width:90%">
+  <div class="text">GOPURAM</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">14 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040362/Kapaleeswarar%20Temple%2C%20Chennai/exit_sfvnab.jpg" style="width:90%">
+  <div class="text">EXIT</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">15 / 15</div>
+  <img src="https://res.cloudinary.com/dq7pblvqg/image/upload/v1683040362/Kapaleeswarar%20Temple%2C%20Chennai/exit_street_view_ecga0e.jpg" style="width:90%">
+  <div class="text">STREET VIEW</div>
+</div>
+
+
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(4)"></span> 
+	  <span class="dot" onclick="currentSlide(5)"></span> 
+	    <span class="dot" onclick="currentSlide(6)"></span> 
+	  <span class="dot" onclick="currentSlide(7)"></span> 
+	    <span class="dot" onclick="currentSlide(8)"></span> 
+		  <span class="dot" onclick="currentSlide(9)"></span> 
+		    <span class="dot" onclick="currentSlide(10)"></span> 
+			  <span class="dot" onclick="currentSlide(11)"></span> 
+			    <span class="dot" onclick="currentSlide(12)"></span> 
+				  <span class="dot" onclick="currentSlide(13)"></span> 
+				    <span class="dot" onclick="currentSlide(14)"></span> 
+					  <span class="dot" onclick="currentSlide(15)"></span> 
+					  
+</div>
+ </body>
+
+  <body>
+  <font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>ENTRANCE</h1></center></font>
+  <div class="row">
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/01.tiles/thumb.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/02.tiles/thumb.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/07.tiles/thumb.jpg" alt="GOD VINAYAGA" style="width:100%">
+  </div>
+ 
+</div>
+
+  </body>
+  <body>
+  <font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>PATH</h1></center></font>
+  <div class="row">
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/03.tiles/thumb.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/04.tiles/thumb.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/05.tiles/thumb.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+  </body>
+   <body>
+  <font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>INTERIOR</h1></center></font>
+  <div class="row">
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/06.tiles/thumb.jpg" alt="Snow" style="width:100%">
+  </div>
+ 
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/09.tiles/thumb.jpg" alt="Mountains" style="width:100%">
+  </div>
+   <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/10.tiles/thumb.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
+  </body>
+ 
+    <body>
+  <font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>GOPURAM</h1></center></font>
+  <div class="row">
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/14.tiles/thumb.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/15.tiles/thumb.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="https://hrce.tn.gov.in/resources/docs/virtualtour/1/panos/16.tiles/thumb.jpg" alt="Mountains" style="width:100%">
+  </div>
+  
+</div>
+
+  
+  
+
+  </body>
+
+
+<body>
+  <font color=" #7300e6"> 
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>HIGHLIGHTS</h1></center></font>
+<font color=" 	#9970c2">  
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><p><h2 style="font-family:Times new roman;font-size:30px;font-style:bold;"> The notable feature of this structure is the <br></br>Rajagopuram on the eastern side. It is 20 meter<br></br> in length, 15 meter wide and 40 meter height. <br></br>It has 9 kalasams. The temple is also testimonial <br></br> for the Vishawakarma stthapathis. The main deity is <br></br> facing West direction. The Sacred and  <br></br>beautiful tank is situated in front of<br></br> the temple with a nice mandapam adding<br></br> to its serenity. The water is holy and known as Kapali thirtam.</center></h2></p>
+
+ </body>
+<body>
+ <font>
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>HOTELS</h1></center>
+<br>
+
+<center><h1> Savera hotel <h1></center></font>
+
+
+<font color=" 	#9970c2">  
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><p><h2 style="font-family:Times new roman;font-size:30px;font-style:bold;"> “ Savera hotel one of the best hotel in chennai . Rooms are soo good and well maintained mr prabhu and team was did outstanding service and food was superb in piano restaurant i will recommend my friends and family ”
+<br><a href="https://www.tripadvisor.in/HotelsNear-g304556-d325374-Kapaleeshwarar_Temple-Chennai_Madras_Chennai_District_Tamil_Nadu.html ">For more Visit</a></center></h2></p>
+
+
+</font>
+ </body>
+ <body>
+ <font>
+<h2 style="font-family:Times new roman;font-size:30px;font-style:bold;">
+<center><h1>NAVIGATION</h1></center>
+ <center>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1943.5050346048554!2d80.26650423882316!3d13.035030609918032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5267d39fc647e7%3A0xeaa999725e24ce4a!2z4K6F4K6w4K-B4K6z4K-N4K6u4K6_4K6V4K-BIOCuleCuseCvjeCuquCuleCuvuCuruCvjeCuquCuvuCus-CvjSDgrongrp_grqngr4HgrrHgr4gg4K6V4K6q4K6-4K6y4K-A4K644K-N4K614K6w4K6w4K-NIOCupOCuv-CusOCvgeCuleCvjeCuleCvi-Cur-Cuv-CusuCvjSwg4K6u4K6v4K6_4K6y4K6-4K6q4K-N4K6q4K-C4K6w4K-NLCDgrprgr4bgrqngr43grqngr4g!5e0!3m2!1sen!2sin!4v1682530005208!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</center></body>
+</html>
