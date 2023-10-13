@@ -9,3 +9,4 @@ The web application for temple visit to Tamilnadu State will have the following 
 with information about their location, cost, and amenities
 ● Our proposed system acts as a bridge between real-time visitors and virtual
 visitors.
+
